@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header nav ul {
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  list-style: none;
+  background-color: #a620d6;
+}
+
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul a:hover {
+  color: #000000;
+}
+
+#roupas {
+  display: flex;
+  margin: 2%;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.loja-catalogo,
+input {
+  margin: 10px;
+  border: 0.5px solid gainsboro;
+  display: inline-block;
+}
+
+.loja-catalogo > h3,
+p,
+button {
+  margin: 5px 0px 5px 0;
+  padding: 2px;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+button {
+  width: 140px;
+  height: 39px;
+
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: seashell;
+}
+
+footer {
+  width: 100%;
+  height: 16.5vh;
+  padding: 12px;
+
+  background-color: #e8a6ff;
+  text-transform: uppercase;
+}
+
+footer form input {
+  height: 3vh;
+  margin-top: 2%;
+
+  border: none;
+}
+
+footer form button {
+  width: 100px;
+  height: 20px;  
+  cursor: pointer;
+}
